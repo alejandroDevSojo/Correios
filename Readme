@@ -1,0 +1,38 @@
+Título: Programa de almacenamiento de endpoints de la API de Correios
+
+
+
+
+Requisitos técnicos:
+
+    Servidor web local o alojamiento web con soporte para PHP.
+    Versión de PHP 7.x o superior instalada en el servidor.
+    Servidor de base de datos MariaDB o MySQL.
+    Extensión PHP mysqli habilitada.
+    Acceso a Internet para realizar consultas a la API de Correios.
+    Archivo JSON de la API de Correios almacenado en la misma ubicación que el archivo PHP del programa.
+
+
+
+
+
+Introducción:
+En este programa, hemos desarrollado un sistema que se conecta a la API de Correios y almacena los endpoints en una base de datos. Utilizamos la base de datos MariaDB para almacenar los datos. A lo largo del desarrollo, enfrentamos dificultades debido a los problemas de autenticación en la API de Correios, pero finalmente logramos superarlos y obtener acceso exitoso a los endpoints.
+
+Características del programa:
+
+    Establecimiento de conexión con la base de datos MariaDB.
+    Lectura del archivo JSON de la API de Correios.
+    Decodificación y validación del JSON.
+    Recorrido de los endpoints y sus detalles.
+    Almacenamiento de los datos de los endpoints en la base de datos.
+    Control de errores para la decodificación del JSON y la autenticación en la API de Correios.
+    Mensajes de éxito y error para informar sobre el estado de la conexión y las operaciones.
+
+Limitaciones del programa:
+Debido a problemas en la autenticación de la API de Correios, no fue posible realizar la consulta de todas las ciudades de dos países. Sin embargo, pudimos superar esta dificultad y el programa funciona correctamente para los endpoints disponibles.
+
+Conclusiones:
+En este programa, logramos establecer una conexión exitosa con la base de datos MariaDB, leer y procesar el JSON de la API de Correios, y almacenar los endpoints en la base de datos. Aunque enfrentamos dificultades con la autenticación en la API de Correios, logramos resolver los problemas y garantizar el correcto funcionamiento del programa. En el futuro, se pueden agregar nuevas funcionalidades y consultas adicionales para aprovechar al máximo la API de Correios.
+
+
